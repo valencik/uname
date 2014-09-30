@@ -2,9 +2,9 @@
 
 gcc -Wall $1 -o testUname
 
+./genTest.sh > UnameOutput.txt
 
-
-diff --brief <(./testUname) UnameOutput.log >/dev/null
+diff --brief <(./testUname) UnameOutput.txt >/dev/null
 comp_value=$?  #Look at diff exit status
 
 if [ $comp_value -eq 1 ]
