@@ -6,7 +6,7 @@ Uname
 ##Goal
 
 Your goal is to modify uname.c to print out more system information.  
-Your program's output must EXACTLY match the following.  
+Your program's output must match the following format.  
 
 ```
 System name: Linux
