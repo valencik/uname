@@ -6,7 +6,7 @@ Uname
 ##Goal
 
 Your goal is to modify uname.c to print out more system information.  
-Your program's output must EXACTLY match the following.  
+Your program's output must match the following format.  
 
 ```
 System name: Linux
@@ -16,7 +16,7 @@ OS Version: #63-Ubuntu SMP Wed Sep 3 21:30:07 UTC 2014
 CPU Type: x86_64
 ```
 
-( A copy of the above output can be found in [UnameOutput.txt](UnameOutput.txt) )
+( The output for your system is generated with the `uname` command. See [test.sh](test.sh). )
 
 ##Testing
 
